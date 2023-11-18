@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/loginlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:gravity="center"
+        android:background="@drawable/hodroponia_login"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:barrierAllowsGoneWidgets="false"
+        app:chainUseRtl="false"
+        app:layout_constrainedHeight="false"
+        app:layout_constrainedWidth="false"
+        android:padding="10dp"
+        tools:visibility="visible">
+
+        <EditText
+
+            android:id="@+id/usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Usuario"
+            android:textColorHint="#FFF"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="180dp"
+            android:layout_marginBottom="15dp"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|fill|fill_horizontal|center_vertical"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFF"
+            android:textSize="34sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="259dp" />
+
+
+        <Button
+            android:id="@+id/loginBtn"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom|center"
+            android:layout_marginTop="15dp"
+            android:text="Iniciar sesion"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

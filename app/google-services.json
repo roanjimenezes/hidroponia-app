@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "42612458231",
+    "project_id": "esp32-y-sensor-de-flujo",
+    "storage_bucket": "esp32-y-sensor-de-flujo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42612458231:android:1b83cace06e17e8ba649f2",
+        "android_client_info": {
+          "package_name": "com.example.flujodeagua"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeTd_9pT7O9TegxZVETZGPbop284HLhrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
